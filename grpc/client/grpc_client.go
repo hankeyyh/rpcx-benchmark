@@ -20,8 +20,8 @@ import (
 )
 
 var (
-	concurrency = flag.Int("c", 1, "concurrency")
-	total       = flag.Int("n", 10000, "total requests for all clients")
+	concurrency = flag.Int("c", 500, "concurrency")
+	total       = flag.Int("n", 1000000, "total requests for all clients")
 	host        = flag.String("s", "127.0.0.1:8972", "server ip and port")
 	pool        = flag.Int("pool", 10, " shared grpc clients")
 	rate        = flag.Int("r", 0, "throughputs")
