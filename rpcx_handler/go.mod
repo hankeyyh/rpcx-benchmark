@@ -3,11 +3,11 @@ module github.com/rpcxio/rpcx-benchmark/rpcx_handler
 go 1.18
 
 require (
+	github.com/gogo/protobuf v1.3.2
 	github.com/rpcxio/rpcx-benchmark/proto v0.0.0-20220710151605-01c6082298c1
 	github.com/rpcxio/rpcx-benchmark/stat v0.0.0-20220710151605-01c6082298c1
 	github.com/smallnest/rpcx v1.7.8
 	go.uber.org/ratelimit v0.2.0
-	github.com/gogo/protobuf v1.3.2
 )
 
 require (
@@ -25,7 +25,6 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-ping/ping v1.1.0 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect

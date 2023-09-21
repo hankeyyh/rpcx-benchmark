@@ -3,7 +3,7 @@ module a-simple-rpc
 go 1.19
 
 require (
-	github.com/hankeyyh/a-simple-rpc v0.0.0-20230814131221-0d91fa5b8f3a
+	github.com/hankeyyh/a-simple-rpc v0.0.0-20230920152403-9f0e72e87dc6
 	github.com/rpcxio/rpcx-benchmark/proto v0.0.0-20221207062924-99f3a3f589b5
 	github.com/rpcxio/rpcx-benchmark/stat v0.0.0-20221207062924-99f3a3f589b5
 	github.com/smallnest/rpcx v1.8.11
